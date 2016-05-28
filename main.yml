@@ -16,6 +16,7 @@
       - staticfloat/julia
       - karan/karan
       - tldr-pages/tldr
+      - neovim/neovim
 
     # Managed Homebrew packages.
     #
@@ -28,6 +29,7 @@
     # install_options: string or sequence (default: none)
     homebrew_packages:
       - vim
+      - neovim
       - { name: openssl, state: linked, install_options: force }
       - ansible
       - git
@@ -211,6 +213,7 @@
       - macdown
       - mactex
       - macvim
+      - mendeley-desktop
       - mou
       - mysqlworkbench
       - opera
