@@ -1,0 +1,5 @@
+dein_vim_dest: ~/Sources/Provision/Github/DeinVim
+vim_plugins: 
+  - Shougo/neosnippet.vim
+  - Shougo/neosnippet-snippets
+  - { name: Shougo/vimshell, revision: 3787e5 }

@@ -1,0 +1,10 @@
+---
+- name: dein.vim file directory
+  file: path={{ dein_vim_dest }} state=directory
+
+- name: clone dein.vim repo
+  git: repo=https://github.com/Shougo/dein.vim.git dest={{ dein_vim_dest }}
+
+- name: generate .vimrc with plugins
+  template: src=.vimrc.j2 dest=~/.vimrc
+  when: vim_plugins

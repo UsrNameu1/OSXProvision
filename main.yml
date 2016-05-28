@@ -5,6 +5,7 @@
   roles:
     - homebrew-cask
     - homebrew
+    - vim
   vars:
     # Tap external Homebrew repositories.
     #
