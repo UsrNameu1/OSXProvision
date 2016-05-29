@@ -1,0 +1,40 @@
+---
+- name: Finder - show hidden files
+  osx_defaults:
+    domain: com.apple.finder
+    key: AppleShowAllFiles
+    type: string
+    value: YES
+  notify: killall finder
+
+- name: Finder - show file extensions
+  osx_defaults:
+    domain: NSGlobalDomain
+    key: AppleShowAllExtensions
+    type: string
+    value: YES
+  notify: killall finder
+
+- name: Finder - show status bar
+  osx_defaults:
+    domain: com.apple.finder
+    key: ShowStatusBar
+    type: string
+    value: YES
+  notify: killall finder
+
+- name: Finder - show path bar
+  osx_defaults:
+    domain: com.apple.finder
+    key: ShowPathbar
+    type: string
+    value: YES
+  notify: killall finder
+
+- name: Finder - use column view by default
+  osx_defaults:
+    domain: com.apple.finder
+    key: FXPreferredViewStyle
+    type: string
+    value: clmv
+  notify: killall finder
