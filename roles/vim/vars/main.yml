@@ -3,3 +3,4 @@ vim_plugins:
   - Shougo/neosnippet.vim
   - Shougo/neosnippet-snippets
   - { name: Shougo/vimshell, revision: 3787e5 }
+  - scrooloose/nerdtree
