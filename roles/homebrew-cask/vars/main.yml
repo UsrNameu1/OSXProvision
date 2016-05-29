@@ -1,0 +1,61 @@
+# Tap external Homebrew Cask repositories.
+homebrew_cask_repositories:
+  - caskroom/versions
+
+# Managed Homebrew Cask packages.
+#
+# e.g.
+# - package_name
+# or
+# { name: package_name, state: package_state }
+#
+# state choices: [present, absent, installed, uninstalled] (default: present)
+homebrew_cask_packages:
+  - xquartz
+  - java
+  - 1password
+  - alfred
+  - anki
+  - android-studio
+  - astah-community
+  - atom
+  - cgoban
+  - clipy
+  - dash
+  - dockertoolbox
+  - firefox-ja
+  - flux
+  - graphsketcher
+  - genymotion
+  - gimp
+  - gitx
+  - github-desktop
+  - google-chrome
+  - google-japanese-ime
+  - intellij-idea-ce
+  - iterm2
+  - java6
+  - karabiner
+  - latexit
+  - leksah
+  - macdown
+  - mactex
+  - macvim
+  - mendeley-desktop
+  - mou
+  - mysqlworkbench
+  - opera
+  - packer
+  - pycharm-ce
+  - rstudio
+  - seil
+  - sequel-pro
+  - skitch
+  - skype 
+  - slack
+  - sourcetree
+  - sqlitebrowser
+  - sublime-text
+  - sublime-text3
+  - virtualbox
+  - vagrant
