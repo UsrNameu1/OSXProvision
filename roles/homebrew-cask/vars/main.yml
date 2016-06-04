@@ -38,6 +38,7 @@ homebrew_cask_packages:
   - karabiner
   - latexit
   - leksah
+  - night-owl  
   - macdown
   - mactex
   - macvim
@@ -51,11 +52,21 @@ homebrew_cask_packages:
   - seil
   - sequel-pro
   - skitch
-  - skype 
-  - slack
+  - skype
   - sourcetree
   - sqlitebrowser
   - sublime-text
   - sublime-text3
   - virtualbox
   - vagrant
+
+# other useful app not contained in cask or not recommended to install by cask
+# gifbrewery
+# ipmessenger
+# microsoft remote desktop
+# wunderlist
+# cinch
+# cmdQuit
+# pasteasy
+# browseshot
+# slack
