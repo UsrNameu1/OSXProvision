@@ -1,4 +1,4 @@
-# prerequisites
+# Prerequisites
 
 ## Xcode
 
@@ -24,3 +24,11 @@ $ brew install ansible
 ```
 $ brew install git
 ```
+
+# Execute playbook
+
+```
+$ ansible-playbook -i hosts -vv main.yml
+```
+
+
