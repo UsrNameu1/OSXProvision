@@ -21,6 +21,7 @@ homebrew_cask_packages:
   - atom
   - cgoban
   - clipy
+  - clipmenu
   - dash
   - dockertoolbox
   - firefox-ja
