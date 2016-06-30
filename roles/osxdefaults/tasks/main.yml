@@ -3,8 +3,8 @@
   osx_defaults:
     domain: com.apple.finder
     key: AppleShowAllFiles
-    type: string
-    value: YES
+    type: bool
+    value: true
   notify: killall finder
 
 - name: Finder - show file extensions
