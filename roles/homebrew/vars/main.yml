@@ -5,6 +5,7 @@
 homebrew_repositories:
   - homebrew/binary
   - homebrew/science
+  - homebrew/games
   - staticfloat/julia
   - karan/karan
   - tldr-pages/tldr
@@ -142,6 +143,7 @@ homebrew_packages:
   - s-lang
   - sbt
   - scala
+  - simutrans
   - sqlite
   - stow
   - tailor
