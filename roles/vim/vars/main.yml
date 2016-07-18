@@ -4,3 +4,5 @@ vim_plugins:
   - Shougo/neosnippet-snippets
   - { name: Shougo/vimshell, revision: 3787e5 }
   - scrooloose/nerdtree
+  - Shougo/neocomplete.vim
+  - hynek/vim-python-pep8-indent
