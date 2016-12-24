@@ -5,6 +5,7 @@
 homebrew_repositories:
   - homebrew/binary
   - homebrew/science
+  - homebrew/games
   - staticfloat/julia
   - tldr-pages/tldr
   - neovim/neovim
@@ -145,6 +146,7 @@ homebrew_packages:
   - s-lang
   - sbt
   - scala
+  - simutrans
   - sqlite
   - stow
   - swig
