@@ -6,7 +6,6 @@ homebrew_repositories:
   - homebrew/binary
   - homebrew/science
   - staticfloat/julia
-  - karan/karan
   - tldr-pages/tldr
   - neovim/neovim
 
@@ -30,6 +29,7 @@ homebrew_packages:
   - atk
   - autoconf
   - automake
+  - bazel
   - bdw-gc
   - boost
   - boot2docker
@@ -44,6 +44,7 @@ homebrew_packages:
   - cmake
   - curl
   - d-bus
+  - digdag
   - docker
   - docker-machine
   - dynamodb-local
@@ -110,6 +111,7 @@ homebrew_packages:
   - midnight-commander
   - mobile-shell
   - mpfr
+  - mycli
   - mysql
   - nkf
   - nginx
@@ -125,6 +127,7 @@ homebrew_packages:
   - pcre
   - pdf2svg
   - peco
+  - postgresql
   - phantomjs
   - pixman
   - pkg-config
@@ -144,6 +147,7 @@ homebrew_packages:
   - scala
   - sqlite
   - stow
+  - swig
   - tailor
   - tig
   - tmux
