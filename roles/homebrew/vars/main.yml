@@ -62,9 +62,9 @@ homebrew_packages:
   - gettext
   - ghc
   - ghostscript
+  - gibo
   - git-flow
   - git-lfs
-  - gitignore
   - glib
   - gmp
   - gnutls
