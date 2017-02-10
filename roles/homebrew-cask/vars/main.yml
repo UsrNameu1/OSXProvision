@@ -1,6 +1,7 @@
 # Tap external Homebrew Cask repositories.
 homebrew_cask_repositories:
   - caskroom/versions
+  - caskroom/fonts
 
 # Managed Homebrew Cask packages.
 #
@@ -26,6 +27,7 @@ homebrew_cask_packages:
   - dash
   - dockertoolbox
   - firefox-ja
+  - font-fira-code
   - flux
   - graphsketcher
   - genymotion
