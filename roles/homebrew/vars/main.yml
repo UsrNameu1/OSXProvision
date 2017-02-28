@@ -6,8 +6,8 @@ homebrew_repositories:
   - homebrew/binary
   - homebrew/science
   - homebrew/games
+  - homebrew/boneyard
   - staticfloat/julia
-  - karan/karan
   - tldr-pages/tldr
   - neovim/neovim
 
@@ -35,6 +35,7 @@ homebrew_packages:
   - boost
   - boot2docker
   - bison
+  - catdoc
   - cabal-install
   - cairo
   - cairomm
@@ -63,7 +64,6 @@ homebrew_packages:
   - ghostscript
   - git-flow
   - git-lfs
-  - gitignore
   - glib
   - gmp
   - gnutls
@@ -157,6 +157,7 @@ homebrew_packages:
   - wget
   - wxmac
   - wireshark
+  - wine
   - xcproj
   - xctool
   - xz
