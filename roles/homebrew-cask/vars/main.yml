@@ -1,6 +1,7 @@
 # Tap external Homebrew Cask repositories.
 homebrew_cask_repositories:
   - caskroom/versions
+  - caskroom/fonts
 
 # Managed Homebrew Cask packages.
 #
@@ -11,9 +12,9 @@ homebrew_cask_repositories:
 #
 # state choices: [present, absent, installed, uninstalled] (default: present)
 homebrew_cask_packages:
+  - 1password
   - xquartz
   - java
-  - 1password
   - alfred
   - anki
   - android-studio
@@ -22,9 +23,11 @@ homebrew_cask_packages:
   - cgoban
   - clipy
   - clipmenu
+  - cuda
   - dash
   - dockertoolbox
   - firefox-ja
+  - font-fira-code
   - flux
   - graphsketcher
   - genymotion
@@ -32,6 +35,7 @@ homebrew_cask_packages:
   - gitx
   - github-desktop
   - google-chrome
+  - google-cloud-sdk
   - google-japanese-ime
   - intellij-idea-ce
   - iterm2
@@ -62,6 +66,7 @@ homebrew_cask_packages:
   - vagrant
 
 # other useful app not contained in cask or not recommended to install by cask
+
 # gifbrewery
 # ipmessenger
 # microsoft remote desktop

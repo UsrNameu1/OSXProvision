@@ -31,6 +31,7 @@ homebrew_packages:
   - atk
   - autoconf
   - automake
+  - bazel
   - bdw-gc
   - boost
   - boot2docker
@@ -46,6 +47,7 @@ homebrew_packages:
   - cmake
   - curl
   - d-bus
+  - digdag
   - docker
   - docker-machine
   - dynamodb-local
@@ -62,6 +64,7 @@ homebrew_packages:
   - gettext
   - ghc
   - ghostscript
+  - gibo
   - git-flow
   - git-lfs
   - glib
@@ -111,6 +114,7 @@ homebrew_packages:
   - midnight-commander
   - mobile-shell
   - mpfr
+  - mycli
   - mysql
   - nkf
   - nginx
@@ -126,6 +130,8 @@ homebrew_packages:
   - pcre
   - pdf2svg
   - peco
+  - pgcli
+  - postgresql
   - phantomjs
   - pixman
   - pkg-config
@@ -146,6 +152,7 @@ homebrew_packages:
   - simutrans
   - sqlite
   - stow
+  - swig
   - tailor
   - tig
   - tmux
@@ -154,6 +161,7 @@ homebrew_packages:
   - the_silver_searcher
   - typesafe-activator
   - w3m
+  - watchman
   - wget
   - wxmac
   - wireshark
