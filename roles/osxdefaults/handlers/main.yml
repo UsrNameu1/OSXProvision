@@ -1,0 +1,4 @@
+---
+  
+- name: killall finder
+  command: killall Finder

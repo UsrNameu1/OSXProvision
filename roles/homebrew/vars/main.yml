@@ -21,6 +21,7 @@ homebrew_repositories:
 # state choices: [head, latest, present, absent, linked, unlinked] (default: latest)
 # install_options: string or sequence (default: none)
 homebrew_packages:
+  - gcc
   - vim
   - neovim
   - { name: openssl, state: linked, install_options: force }
@@ -50,14 +51,13 @@ homebrew_packages:
   - digdag
   - docker
   - docker-machine
-  - dynamodb-local
+  #- dynamodb-local
   - eigen
   - elixir
   - erlang
   - fftw
   - fontconfig
   - freetype
-  - gcc
   - gdbm
   - gdk-pixbuf
   - geoip
@@ -149,7 +149,7 @@ homebrew_packages:
   - s-lang
   - sbt
   - scala
-  - simutrans
+  #- simutrans
   - sqlite
   - stow
   - swig
@@ -166,11 +166,10 @@ homebrew_packages:
   - wxmac
   - wireshark
   - wine
-  - xcproj
-  - xctool
+  #- xcproj
+  #- xctool
   - xz
   - vim
   - zsh
   - zsh-completions
   - zsh-syntax-highlighting
-  

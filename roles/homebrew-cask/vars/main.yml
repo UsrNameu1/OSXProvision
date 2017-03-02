@@ -20,13 +20,12 @@ homebrew_cask_packages:
   - android-studio
   - astah-community
   - atom
-  - cgoban
+  #- cgoban
   - clipy
   - clipmenu
   - cuda
   - dash
-  - dockertoolbox
-  - firefox-ja
+  - docker-toolbox
   - font-fira-code
   - flux
   - graphsketcher
@@ -43,15 +42,13 @@ homebrew_cask_packages:
   - karabiner
   - latexit
   - leksah
-  - night-owl  
+  - night-owl
   - macdown
   - mactex
   - macvim
   - mendeley-desktop
-  - mou
   - mysqlworkbench
   - opera
-  - packer
   - pycharm-ce
   - rstudio
   - seil
@@ -61,7 +58,6 @@ homebrew_cask_packages:
   - sourcetree
   - sqlitebrowser
   - sublime-text
-  - sublime-text3
   - virtualbox
   - vagrant
 
