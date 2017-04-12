@@ -3,9 +3,9 @@
   gather_facts: no
   become: no
   roles:
-    #- homebrew-cask
-    #- homebrew
-    #- vim
-    #- zsh
+    - homebrew-cask
+    - homebrew
+    - vim
+    - zsh
     - osxdefaults
     - pip
