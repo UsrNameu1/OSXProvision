@@ -20,6 +20,7 @@ homebrew_cask_packages:
   - android-studio
   - astah-community
   - atom
+  - bitbar
   #- cgoban
   - clipy
   - clipmenu

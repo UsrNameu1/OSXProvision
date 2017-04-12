@@ -110,6 +110,8 @@ homebrew_packages:
   - llvm
   - maven
   - mahout
+  - mecab
+  - mecab-ipadic
   - mercurial
   - midnight-commander
   - mobile-shell
@@ -147,6 +149,7 @@ homebrew_packages:
   - rust
   - rbenv
   - s-lang
+  - s3cmd
   - sbt
   - scala
   #- simutrans
@@ -161,6 +164,7 @@ homebrew_packages:
   - the_silver_searcher
   - typesafe-activator
   - w3m
+  - watch
   - watchman
   - wget
   - wxmac
