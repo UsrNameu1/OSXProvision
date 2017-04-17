@@ -83,6 +83,7 @@ homebrew_packages:
   - postgresql
   - phantomjs
   - pyenv
+  - pyenv-virtualenv
   - python
   - python3
   - R
