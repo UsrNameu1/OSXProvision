@@ -19,7 +19,6 @@ homebrew_cask_packages:
   - astah-community
   - atom
   - bitbar
-  #- cgoban
   - clipy
   - clipmenu
   - cuda
@@ -54,8 +53,10 @@ homebrew_cask_packages:
   - virtualbox
   - vagrant
 
-# other useful app not contained in cask or not recommended to install by cask
+# app for hobby
+# cgoban
 
+# other useful app not contained in cask or not recommended to install by cask
 # gifbrewery
 # ipmessenger
 # microsoft remote desktop

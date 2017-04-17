@@ -37,13 +37,13 @@ homebrew_packages:
   - boost
   - boot2docker
   - bison
-  - catdoc
   - cabal-install
   - cairo
   - cairomm
   - clisp
   - cloog
   - clozure-cl
+  - chrome-cli
   - coreutils
   - cmake
   - curl
@@ -51,7 +51,6 @@ homebrew_packages:
   - digdag
   - docker
   - docker-machine
-  #- dynamodb-local
   - doxygen
   - eigen
   - elixir
@@ -129,7 +128,6 @@ homebrew_packages:
   - openexr
   - openssl
   - pango
-  - pangox-compat
   - pcre
   - pdf2svg
   - peco
@@ -153,7 +151,6 @@ homebrew_packages:
   - s3cmd
   - sbt
   - scala
-  #- simutrans
   - sqlite
   - stow
   - swig
@@ -171,10 +168,15 @@ homebrew_packages:
   - wxmac
   - wireshark
   - wine
-  #- xcproj
-  #- xctool
   - xz
   - vim
   - zsh
   - zsh-completions
   - zsh-syntax-highlighting
+
+# tool for developing mobile app
+# xcproj
+# xctool
+
+# app for hobby
+# simutrans
