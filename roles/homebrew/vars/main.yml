@@ -40,6 +40,7 @@ homebrew_packages:
   - doxygen
   - elixir
   - erlang
+  - elasticsearch
   - fontconfig
   - freetype
   - ghc
@@ -76,6 +77,7 @@ homebrew_packages:
   - openblas
   - opencv
   - openssl
+  - packer
   - pango
   - pdf2svg
   - peco
