@@ -30,6 +30,7 @@ homebrew_cask_packages:
   - google-chrome
   - google-cloud-sdk
   - google-japanese-ime
+  - hosts
   - intellij-idea-ce
   - iterm2
   - java6

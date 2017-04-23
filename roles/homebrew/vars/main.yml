@@ -87,6 +87,7 @@ homebrew_packages:
   - python
   - python3
   - R
+  - ranger
   - redis
   - ruby-build
   - rust
