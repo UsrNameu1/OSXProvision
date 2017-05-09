@@ -23,6 +23,8 @@ homebrew_packages:
   - vim
   - neovim
   - { name: openssl, state: linked, install_options: force }
+  - axel
+  - aws-shell
   - ansible
   - git
   - git-flow
@@ -84,6 +86,7 @@ homebrew_packages:
   - pgcli
   - postgresql
   - phantomjs
+  - pup
   - pyenv
   - pyenv-virtualenv
   - python

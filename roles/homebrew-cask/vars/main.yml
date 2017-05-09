@@ -34,6 +34,7 @@ homebrew_cask_packages:
   - intellij-idea-ce
   - iterm2
   - java6
+  - kindle
   - karabiner
   - latexit
   - night-owl
