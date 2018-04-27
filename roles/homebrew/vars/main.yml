@@ -8,6 +8,7 @@ homebrew_repositories:
   - homebrew/boneyard
   - staticfloat/julia
   - neovim/neovim
+  - uetchy/nlp
 
 # Managed Homebrew packages.
 #
@@ -21,7 +22,6 @@ homebrew_repositories:
 homebrew_packages:
   - gcc
   - vim
-  - neovim
   - { name: openssl, state: linked, install_options: force }
   - axel
   - aws-shell
@@ -31,7 +31,6 @@ homebrew_packages:
   - apache-spark
   - bazel
   - boot2docker
-  - cabal-install
   - chrome-cli
   - coreutils
   - cmake
@@ -40,12 +39,9 @@ homebrew_packages:
   - docker
   - docker-machine
   - doxygen
-  - elixir
-  - erlang
   - elasticsearch
   - fontconfig
   - freetype
-  - ghc
   - ghostscript
   - gibo
   - git-flow
@@ -53,7 +49,6 @@ homebrew_packages:
   - glib
   - go
   - graphviz
-  - haskell-stack
   - hadoop
   - hub
   - imagemagick
@@ -61,6 +56,8 @@ homebrew_packages:
   - jq
   - jpeg
   - julia
+  - jumanpp
+  - knp
   - libssh2
   - llvm
   - maven
@@ -68,7 +65,6 @@ homebrew_packages:
   - mecab
   - mecab-ipadic
   - mercurial
-  - midnight-commander
   - mycli
   - mysql
   - nkf
@@ -101,6 +97,7 @@ homebrew_packages:
   - scala
   - sqlite
   - tailor
+  - terraform
   - tig
   - tmux
   - tree

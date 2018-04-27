@@ -12,16 +12,14 @@ homebrew_cask_repositories:
 #
 # state choices: [present, absent, installed, uninstalled] (default: present)
 homebrew_cask_packages:
-  - 1password
   - xquartz
   - java
   - alfred
   - astah-community
   - atom
   - bitbar
+  - boostnote
   - clipy
-  - clipmenu
-  - cuda
   - dash
   - docker-toolbox
   - font-fira-code
@@ -43,10 +41,8 @@ homebrew_cask_packages:
   - macvim
   - mendeley-desktop
   - mysqlworkbench
-  - packer
   - pycharm-ce
   - rstudio
-  - seil
   - sequel-pro
   - skitch
   - skype
@@ -59,6 +55,7 @@ homebrew_cask_packages:
 # cgoban
 
 # other useful app not contained in cask or not recommended to install by cask
+# 1password
 # gifbrewery
 # ipmessenger
 # microsoft remote desktop

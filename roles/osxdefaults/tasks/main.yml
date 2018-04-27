@@ -5,7 +5,7 @@
     key: AppleShowAllFiles
     type: string
     value: true
-  notify: killall Finder
+  notify: killall finder
 
 - name: Finder - show file extensions
   osx_defaults:
