@@ -1,7 +1,4 @@
 ---
-- name: set zsh as default shell
-  command: chsh -s '/bin/zsh'
-
 - name: clone oh-my-zsh repo
   git: repo=https://github.com/robbyrussell/oh-my-zsh.git
        dest=~/.oh-my-zsh

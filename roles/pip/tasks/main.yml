@@ -1,9 +1,0 @@
----
-- name: upgrade pip
-  pip: name=pip state=latest
-
-- name: install pip packages
-  pip: name={{ item }}
-  with_items: '{{ pip_packages }}'
-  when: '{{ pip_packages }}'
-  

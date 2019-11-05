@@ -1,7 +1,6 @@
-# Tap external Homebrew Cask repositories.
+# Tap external Homebre Cask Repos/
 homebrew_cask_repositories:
-  - caskroom/versions
-  - caskroom/fonts
+  - adoptopenjdk/openjdk
 
 # Managed Homebrew Cask packages.
 #
@@ -14,42 +13,28 @@ homebrew_cask_repositories:
 homebrew_cask_packages:
   - xquartz
   - java
+  - adoptopenjdk8
+  - adoptopenjdk11
   - alfred
-  - astah-community
   - atom
-  - bitbar
   - boostnote
-  - clipy
   - dash
   - docker-toolbox
-  - font-fira-code
   - flux
-  - gimp
   - google-chrome
   - google-cloud-sdk
   - google-japanese-ime
-  - hosts
+  - switchhosts
   - intellij-idea-ce
   - iterm2
-  - java6
   - kindle
-  - karabiner
   - latexit
-  - night-owl
-  - macdown
   - mactex
   - macvim
   - mendeley-desktop
-  - mysqlworkbench
   - pycharm-ce
-  - rstudio
-  - sequel-pro
   - skitch
   - skype
-  - sqlitebrowser
-  - sublime-text
-  - virtualbox
-  - vagrant
 
 # app for hobby
 # cgoban
