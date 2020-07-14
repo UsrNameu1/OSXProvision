@@ -19,7 +19,7 @@ homebrew_cask_packages:
   - atom
   - boostnote
   - dash
-  - docker-toolbox
+  - docker
   - flux
   - google-chrome
   - google-cloud-sdk
@@ -31,10 +31,9 @@ homebrew_cask_packages:
   - latexit
   - mactex
   - macvim
-  - mendeley-desktop
+  - mendeley
   - pycharm-ce
   - skitch
-  - skype
 
 # app for hobby
 # cgoban
