@@ -12,11 +12,9 @@ homebrew_cask_repositories:
 # state choices: [present, absent, installed, uninstalled] (default: present)
 homebrew_cask_packages:
   - xquartz
-  - java
   - adoptopenjdk8
   - adoptopenjdk11
   - alfred
-  - atom
   - boostnote
   - dash
   - docker

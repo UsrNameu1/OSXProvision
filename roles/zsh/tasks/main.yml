@@ -13,3 +13,6 @@
 
 - name: generate .zshrc
   template: src=.zshrc.j2 dest=~/.zshrc
+
+- name: generate .zprofile
+  template: src=.zprofile.j2 dest=~/.zprofile
